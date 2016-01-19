@@ -22,7 +22,6 @@
                                 <rect key="frame" x="361" y="118" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="generate:" destination="TeT-RW-enD" eventType="touchUpInside" id="M3z-4Q-0vo"/>
                                     <action selector="generateButton:" destination="TeT-RW-enD" eventType="touchUpInside" id="rEO-mS-qBl"/>
                                 </connections>
                             </button>
