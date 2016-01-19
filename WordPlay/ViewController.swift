@@ -8,10 +8,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextViewDelegate {
 
+    @IBOutlet weak var myButton: UIButton!
+    @IBOutlet weak var myTextField: UITextField!
+    var myMadLib1 = MadLib()
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let nvc = segue.destinationViewController as! SecondViewController
+        myMadLib1.noun = myTextField.text!
+        nvc.myMadLib2 = myMadLib1
+        
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
+       
+        
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

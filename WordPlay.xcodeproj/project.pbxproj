@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D721DD4A1C459D7C00063890 /* ThirdHalfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D721DD491C459D7C00063890 /* ThirdHalfViewController.swift */; };
+		D731C3161C498F1300B52E19 /* ViewControllerPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = D731C3151C498F1300B52E19 /* ViewControllerPassword.swift */; };
+		D75430E51C18BF42004CEF03 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75430E41C18BF42004CEF03 /* ThirdViewController.swift */; };
+		D75430E71C18BFEC004CEF03 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75430E61C18BFEC004CEF03 /* FourthViewController.swift */; };
+		D7D837601C1779070060195E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D8375F1C1779070060195E /* SecondViewController.swift */; };
+		D7DB6AE51C1F5FA0006323E5 /* MadLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DB6AE41C1F5FA0006323E5 /* MadLib.swift */; };
 		D7E0B84C1C123243002CF88D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0B84B1C123243002CF88D /* AppDelegate.swift */; };
 		D7E0B84E1C123243002CF88D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0B84D1C123243002CF88D /* ViewController.swift */; };
 		D7E0B8511C123243002CF88D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E0B84F1C123243002CF88D /* Main.storyboard */; };
@@ -34,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D721DD491C459D7C00063890 /* ThirdHalfViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdHalfViewController.swift; sourceTree = "<group>"; };
+		D731C3151C498F1300B52E19 /* ViewControllerPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerPassword.swift; sourceTree = "<group>"; };
+		D75430E41C18BF42004CEF03 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		D75430E61C18BFEC004CEF03 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		D7D8375F1C1779070060195E /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D7DB6AE41C1F5FA0006323E5 /* MadLib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MadLib.swift; sourceTree = "<group>"; };
 		D7E0B8481C123243002CF88D /* WordPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E0B84B1C123243002CF88D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7E0B84D1C123243002CF88D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,9 +109,15 @@
 		D7E0B84A1C123243002CF88D /* WordPlay */ = {
 			isa = PBXGroup;
 			children = (
+				D7DB6AE41C1F5FA0006323E5 /* MadLib.swift */,
 				D7E0B84B1C123243002CF88D /* AppDelegate.swift */,
 				D7E0B84D1C123243002CF88D /* ViewController.swift */,
+				D721DD491C459D7C00063890 /* ThirdHalfViewController.swift */,
 				D7E0B84F1C123243002CF88D /* Main.storyboard */,
+				D731C3151C498F1300B52E19 /* ViewControllerPassword.swift */,
+				D75430E61C18BFEC004CEF03 /* FourthViewController.swift */,
+				D75430E41C18BF42004CEF03 /* ThirdViewController.swift */,
+				D7D8375F1C1779070060195E /* SecondViewController.swift */,
 				D7E0B8521C123243002CF88D /* Assets.xcassets */,
 				D7E0B8541C123243002CF88D /* LaunchScreen.storyboard */,
 				D7E0B8571C123243002CF88D /* Info.plist */,
@@ -256,8 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D721DD4A1C459D7C00063890 /* ThirdHalfViewController.swift in Sources */,
+				D731C3161C498F1300B52E19 /* ViewControllerPassword.swift in Sources */,
+				D7D837601C1779070060195E /* SecondViewController.swift in Sources */,
 				D7E0B84E1C123243002CF88D /* ViewController.swift in Sources */,
+				D7DB6AE51C1F5FA0006323E5 /* MadLib.swift in Sources */,
+				D75430E51C18BF42004CEF03 /* ThirdViewController.swift in Sources */,
 				D7E0B84C1C123243002CF88D /* AppDelegate.swift in Sources */,
+				D75430E71C18BFEC004CEF03 /* FourthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +508,7 @@
 				D7E0B8721C123243002CF88D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7E0B8731C123243002CF88D /* Build configuration list for PBXNativeTarget "WordPlayTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +517,7 @@
 				D7E0B8751C123243002CF88D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7E0B8761C123243002CF88D /* Build configuration list for PBXNativeTarget "WordPlayUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +526,7 @@
 				D7E0B8781C123243002CF88D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
