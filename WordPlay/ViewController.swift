@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController, UITextViewDelegate {
 
+    //Testing
+    
     @IBOutlet weak var myButton: UIButton!
     @IBOutlet weak var myTextField: UITextField!
     var myMadLib1 = MadLib()
