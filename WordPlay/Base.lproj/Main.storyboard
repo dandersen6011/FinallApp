@@ -78,6 +78,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PfK-Ll-Jfs">
                                 <rect key="frame" x="366" y="544" width="37" height="30"/>
                                 <state key="normal" title="Trivia"/>
+                                <connections>
+                                    <segue destination="B4S-mI-Pl6" kind="show" id="3Wb-bb-JZQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ycl-TL-NdM">
                                 <rect key="frame" x="189" y="364" width="106" height="30"/>
@@ -92,6 +95,59 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="90q-IY-rSn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-586" y="470"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Vua-7I-E61">
+            <objects>
+                <viewController id="B4S-mI-Pl6" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xr6-ct-ofi"/>
+                        <viewControllerLayoutGuide type="bottom" id="DM2-Cx-Udn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tt1-h5-Fct">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wmg-ci-8VO">
+                                <rect key="frame" x="54" y="411" width="660" height="202"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="53"/>
+                                <state key="normal" title="LET THE GAMES BEGIN"/>
+                                <connections>
+                                    <segue destination="PK3-8a-fNq" kind="show" id="NaL-c0-Yjn"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MOVIE TRIVIA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t9d-hb-i9y">
+                                <rect key="frame" x="138" y="94" width="493" height="146"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="72"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bwR-bf-bPk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-581" y="1744"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hIV-6t-4Bk">
+            <objects>
+                <viewController id="PK3-8a-fNq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ted-xa-gmt"/>
+                        <viewControllerLayoutGuide type="bottom" id="2JW-MB-JJR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RyX-rA-hQX">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DbC-UI-b8t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-581" y="3028"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
