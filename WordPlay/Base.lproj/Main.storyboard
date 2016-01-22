@@ -134,6 +134,24 @@
             <point key="canvasLocation" x="-581" y="1744"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="qDt-Ad-kf3">
+            <objects>
+                <viewController id="M1Q-rH-Bfh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="f3Z-Bc-jnM"/>
+                        <viewControllerLayoutGuide type="bottom" id="IC7-Bn-P5B"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Cdf-ee-7PR">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V4t-yX-Gnc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="492" y="3608"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="hIV-6t-4Bk">
             <objects>
                 <viewController id="PK3-8a-fNq" sceneMemberID="viewController">
@@ -145,28 +163,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kYg-jS-MmP">
-                                <rect key="frame" x="605" y="679" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="arM-7z-fDz">
-                                <rect key="frame" x="142" y="679" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="146" y="679" width="38" height="30"/>
+                                <state key="normal" title="R2D2"/>
+                                <connections>
+                                    <segue destination="H1c-sv-koW" kind="show" id="JSk-Fv-Abl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pp8-ry-M5K">
-                                <rect key="frame" x="605" y="895" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="611" y="895" width="35" height="30"/>
+                                <state key="normal" title="Yoda"/>
+                                <connections>
+                                    <segue destination="H1c-sv-koW" kind="showDetail" id="xsl-Er-9Ki"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vai-be-Ku4">
-                                <rect key="frame" x="142" y="895" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="In the movie StarWars who saves luke from the Wampa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4KM-ui-Nu0">
-                                <rect key="frame" x="123" y="275" width="419" height="151"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="In the movie StarWars who saves luke from the Wampa" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4KM-ui-Nu0">
+                                <rect key="frame" x="108" y="260" width="553" height="89"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iNC-HY-387">
+                                <rect key="frame" x="599" y="679" width="58" height="30"/>
+                                <state key="normal" title="Obi Wan"/>
+                                <connections>
+                                    <segue destination="H1c-sv-koW" kind="show" id="trd-Bk-YwM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vai-be-Ku4">
+                                <rect key="frame" x="134" y="895" width="62" height="30"/>
+                                <state key="normal" title="Han Solo"/>
+                                <connections>
+                                    <segue destination="M1Q-rH-Bfh" kind="show" id="Yng-sL-lCX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -203,14 +233,15 @@
                         <viewControllerLayoutGuide type="bottom" id="LZJ-hh-7CD"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="VhE-Xh-wtJ">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Erh-2X-12k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="113" y="3111"/>
+            <point key="canvasLocation" x="-607" y="4431"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -560,4 +591,7 @@
     <resources>
         <image name="Background" width="1536" height="2048"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="xsl-Er-9Ki"/>
+    </inferredMetricsTieBreakers>
 </document>
