@@ -156,12 +156,28 @@
                     <view key="view" contentMode="scaleToFill" id="Cdf-ee-7PR">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nice One" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gRs-XT-j48">
+                                <rect key="frame" x="124" y="169" width="521" height="259"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="128"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZbI-UH-912">
+                                <rect key="frame" x="164" y="687" width="430" height="304"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="115"/>
+                                <state key="normal" title="NEXT"/>
+                                <connections>
+                                    <segue destination="bza-yN-HJN" kind="show" id="Kyp-an-lCv"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V4t-yX-Gnc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="492" y="3608"/>
+            <point key="canvasLocation" x="272" y="4407"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hIV-6t-4Bk">
@@ -247,6 +263,22 @@
                     <view key="view" contentMode="scaleToFill" id="VhE-Xh-wtJ">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sorry" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zk9-NC-NsP">
+                                <rect key="frame" x="177" y="93" width="414" height="441"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="174"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ifw-jT-dQi">
+                                <rect key="frame" x="153" y="575" width="463" height="291"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="115"/>
+                                <state key="normal" title="NEXT"/>
+                                <connections>
+                                    <segue destination="bza-yN-HJN" kind="show" id="9Kp-cx-KPl"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
@@ -254,6 +286,106 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Erh-2X-12k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-607" y="4431"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="m2K-6g-YV1">
+            <objects>
+                <viewController id="bza-yN-HJN" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rLU-LB-I2l"/>
+                        <viewControllerLayoutGuide type="bottom" id="P2x-b8-6N0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qOz-kp-MER">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Who is the ghost of slytherin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D9q-wf-dIZ">
+                                <rect key="frame" x="119" y="93" width="530" height="340"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="naH-9C-Cx1">
+                                <rect key="frame" x="489" y="813" width="196" height="93"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="nearly headless nick"/>
+                                <connections>
+                                    <segue destination="Hhk-my-FK2" kind="show" id="v2v-yv-uk6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YEs-5t-rHE">
+                                <rect key="frame" x="527" y="626" width="121" height="97"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Fat Friar"/>
+                                <connections>
+                                    <segue destination="Hhk-my-FK2" kind="show" id="4m3-ED-nP2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xRc-UI-460">
+                                <rect key="frame" x="119" y="642" width="128" height="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Grey Lady"/>
+                                <connections>
+                                    <segue destination="Hhk-my-FK2" kind="show" id="JNV-Sg-rbZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Nq-iM-wo2">
+                                <rect key="frame" x="106" y="827" width="166" height="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="The Bloody Baron"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YtV-iQ-ZcZ">
+                                <rect key="frame" x="106" y="826" width="166" height="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="The Bloody Baron"/>
+                                <connections>
+                                    <segue destination="92s-vA-n8I" kind="show" id="b2k-jP-ccy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KK0-WW-XBf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-24" y="5580"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="KLB-yA-MnE">
+            <objects>
+                <viewController id="92s-vA-n8I" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nBh-3L-j1t"/>
+                        <viewControllerLayoutGuide type="bottom" id="f7J-cJ-FYZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lAm-FH-egz">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dbj-1J-Kdy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="610" y="6784"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ikk-WO-lUE">
+            <objects>
+                <viewController id="Hhk-my-FK2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vY4-9r-Jc7"/>
+                        <viewControllerLayoutGuide type="bottom" id="yeJ-5K-QaU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6os-sU-qpd">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J9r-dF-jdY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1656" y="6784"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -660,5 +792,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="xsl-Er-9Ki"/>
+        <segue reference="Kyp-an-lCv"/>
+        <segue reference="v2v-yv-uk6"/>
     </inferredMetricsTieBreakers>
 </document>
