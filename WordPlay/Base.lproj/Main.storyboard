@@ -422,9 +422,16 @@
                                 <rect key="frame" x="0.0" y="64" width="768" height="960"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uhK-7Q-kly">
-                                <rect key="frame" x="361" y="497" width="163" height="122"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="298" y="738" width="172" height="122"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="69"/>
+                                <state key="normal" title="NEXT"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sorry" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSr-Q5-X8R">
+                                <rect key="frame" x="235" y="213" width="298" height="254"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="117"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
