@@ -394,9 +394,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q5I-EY-ejN">
-                                <rect key="frame" x="269" y="563" width="230" height="176"/>
+                                <rect key="frame" x="176" y="563" width="416" height="176"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <state key="normal" title="LETS GO"/>
+                                <state key="normal" title="Thanks For Playing"/>
+                                <connections>
+                                    <segue destination="8LU-Nb-uRk" kind="show" id="3f6-Mh-5TJ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -404,7 +407,119 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dbj-1J-Kdy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="610" y="6784"/>
+            <point key="canvasLocation" x="-34" y="964"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="v0I-Tj-tLM">
+            <objects>
+                <viewController id="hzV-a2-cZX" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IPb-xy-kzn"/>
+                        <viewControllerLayoutGuide type="bottom" id="Npq-io-WAx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UBu-m9-vkm">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lineart" translatesAutoresizingMaskIntoConstraints="NO" id="64V-ga-TKi">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="who took the one ring to mordor?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VSO-AZ-PCB">
+                                <rect key="frame" x="82" y="98" width="608" height="256"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FGB-V7-CQE">
+                                <rect key="frame" x="544" y="701" width="104" height="30"/>
+                                <state key="normal" title="Frodo and Sam">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="eCh-e8-vlh" kind="show" id="YRG-4D-04s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cee-Jf-D0J">
+                                <rect key="frame" x="552" y="861" width="96" height="81"/>
+                                <state key="normal" title="Gandalf">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="DY5-va-lpk" kind="show" id="7oh-HA-Baw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u5M-Fa-IxS">
+                                <rect key="frame" x="108" y="867" width="170" height="83"/>
+                                <state key="normal" title="Merry and Pippin">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="DY5-va-lpk" kind="show" id="7PK-w7-ij5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UCE-IM-bBn">
+                                <rect key="frame" x="104" y="672" width="179" height="87"/>
+                                <state key="normal" title="Legolas and Gimli">
+                                    <color key="titleColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="DY5-va-lpk" kind="show" id="WFh-0j-r4l"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t7v-jP-bny" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1050" y="7984"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="voo-p9-qQA">
+            <objects>
+                <viewController id="DY5-va-lpk" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MNb-gg-CO7"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xl3-5X-oEu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Wtn-7V-S8T">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lineart" translatesAutoresizingMaskIntoConstraints="NO" id="0Vq-gA-nfX">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6KG-85-OT3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="796" y="9398"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="XRv-mh-Zul">
+            <objects>
+                <viewController id="eCh-e8-vlh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="e67-0K-QFf"/>
+                        <viewControllerLayoutGuide type="bottom" id="hRK-iC-prh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="h4f-JU-LAy">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="54b-ez-jJE">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UXn-ve-UQ8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1688" y="9324"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ikk-WO-lUE">
@@ -422,9 +537,12 @@
                                 <rect key="frame" x="0.0" y="64" width="768" height="960"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uhK-7Q-kly">
-                                <rect key="frame" x="298" y="738" width="172" height="122"/>
+                                <rect key="frame" x="109" y="738" width="551" height="122"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="69"/>
-                                <state key="normal" title="NEXT"/>
+                                <state key="normal" title="Thanks for Playing"/>
+                                <connections>
+                                    <segue destination="8LU-Nb-uRk" kind="show" id="ARg-E9-iMu"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sorry" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSr-Q5-X8R">
                                 <rect key="frame" x="235" y="213" width="298" height="254"/>
@@ -438,7 +556,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J9r-dF-jdY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1656" y="6784"/>
+            <point key="canvasLocation" x="892" y="2376"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -503,7 +621,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="469" y="359"/>
+            <point key="canvasLocation" x="397" y="1231"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="QeA-uy-5JT">
@@ -839,8 +957,10 @@
         <image name="lineart" width="5000" height="3320"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="xsl-Er-9Ki"/>
+        <segue reference="3f6-Mh-5TJ"/>
         <segue reference="Kyp-an-lCv"/>
+        <segue reference="xsl-Er-9Ki"/>
         <segue reference="v2v-yv-uk6"/>
+        <segue reference="WFh-0j-r4l"/>
     </inferredMetricsTieBreakers>
 </document>
