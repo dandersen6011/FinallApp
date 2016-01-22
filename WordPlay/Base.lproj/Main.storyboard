@@ -23,7 +23,9 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u58-MD-nVL">
                                 <rect key="frame" x="352" y="251" width="64" height="30"/>
-                                <state key="normal" title="Generate"/>
+                                <state key="normal" title="Generate">
+                                    <color key="titleColor" red="1" green="0.03014565537" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="generateButton:" destination="TeT-RW-enD" eventType="touchUpInside" id="rEO-mS-qBl"/>
                                 </connections>
@@ -81,28 +83,36 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VkF-12-WTa">
                                 <rect key="frame" x="315" y="202" width="139" height="30"/>
-                                <state key="normal" title="Password Generator"/>
+                                <state key="normal" title="Password Generator">
+                                    <color key="titleColor" red="1" green="0.03014565537" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="TeT-RW-enD" kind="show" id="1Yp-x5-Ap5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fcl-1Z-1gi">
                                 <rect key="frame" x="510" y="364" width="63" height="30"/>
-                                <state key="normal" title="Mad Libs"/>
+                                <state key="normal" title="Mad Libs">
+                                    <color key="titleColor" red="1" green="0.03014565537" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="fR1-PG-oZf"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="hhc-HT-b9R"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PfK-Ll-Jfs">
                                 <rect key="frame" x="366" y="544" width="37" height="30"/>
-                                <state key="normal" title="Trivia"/>
+                                <state key="normal" title="Trivia">
+                                    <color key="titleColor" red="1" green="0.03014565537" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="B4S-mI-Pl6" kind="show" id="3Wb-bb-JZQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ycl-TL-NdM">
                                 <rect key="frame" x="189" y="364" width="106" height="30"/>
-                                <state key="normal" title="About the Devs"/>
+                                <state key="normal" title="About the Devs">
+                                    <color key="titleColor" red="1" green="0.03014565537" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="MLx-w5-ajy" kind="show" id="KtG-Fs-Krj"/>
                                 </connections>
@@ -115,7 +125,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="90q-IY-rSn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-586" y="470"/>
+            <point key="canvasLocation" x="-542" y="458"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Vua-7I-E61">
@@ -135,7 +145,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wmg-ci-8VO">
                                 <rect key="frame" x="54" y="411" width="660" height="202"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="53"/>
-                                <state key="normal" title="LET THE GAMES BEGIN"/>
+                                <state key="normal" title="LET THE GAMES BEGIN">
+                                    <color key="titleColor" red="1" green="0.03014565537" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="PK3-8a-fNq" kind="show" id="NaL-c0-Yjn"/>
                                 </connections>
@@ -178,7 +190,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZbI-UH-912">
                                 <rect key="frame" x="164" y="687" width="430" height="304"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="115"/>
-                                <state key="normal" title="NEXT"/>
+                                <state key="normal" title="NEXT">
+                                    <color key="titleColor" red="1" green="0.03014565537" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="bza-yN-HJN" kind="show" id="Kyp-an-lCv"/>
                                 </connections>
@@ -208,14 +222,18 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="arM-7z-fDz">
                                 <rect key="frame" x="146" y="679" width="38" height="30"/>
-                                <state key="normal" title="R2D2"/>
+                                <state key="normal" title="R2D2">
+                                    <color key="titleColor" red="1" green="0.03014565537" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="H1c-sv-koW" kind="show" id="JSk-Fv-Abl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pp8-ry-M5K">
                                 <rect key="frame" x="611" y="895" width="35" height="30"/>
-                                <state key="normal" title="Yoda"/>
+                                <state key="normal" title="Yoda">
+                                    <color key="titleColor" red="1" green="0.03014565537" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="H1c-sv-koW" kind="showDetail" id="xsl-Er-9Ki"/>
                                 </connections>
@@ -228,14 +246,18 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iNC-HY-387">
                                 <rect key="frame" x="599" y="679" width="58" height="30"/>
-                                <state key="normal" title="Obi Wan"/>
+                                <state key="normal" title="Obi Wan">
+                                    <color key="titleColor" red="1" green="0.03014565537" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="H1c-sv-koW" kind="show" id="trd-Bk-YwM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vai-be-Ku4">
                                 <rect key="frame" x="134" y="895" width="62" height="30"/>
-                                <state key="normal" title="Han Solo"/>
+                                <state key="normal" title="Han Solo">
+                                    <color key="titleColor" red="1" green="0.03014565537" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="M1Q-rH-Bfh" kind="show" id="Yng-sL-lCX"/>
                                 </connections>
@@ -291,7 +313,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ifw-jT-dQi">
                                 <rect key="frame" x="153" y="575" width="463" height="291"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="115"/>
-                                <state key="normal" title="NEXT"/>
+                                <state key="normal" title="NEXT">
+                                    <color key="titleColor" red="1" green="0.03014565537" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="bza-yN-HJN" kind="show" id="9Kp-cx-KPl"/>
                                 </connections>
@@ -329,7 +353,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="naH-9C-Cx1">
                                 <rect key="frame" x="489" y="813" width="196" height="93"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <state key="normal" title="nearly headless nick"/>
+                                <state key="normal" title="nearly headless nick">
+                                    <color key="titleColor" red="1" green="0.03014565537" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="Hhk-my-FK2" kind="show" id="v2v-yv-uk6"/>
                                 </connections>
@@ -337,7 +363,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YEs-5t-rHE">
                                 <rect key="frame" x="527" y="626" width="121" height="97"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Fat Friar"/>
+                                <state key="normal" title="Fat Friar">
+                                    <color key="titleColor" red="1" green="0.03014565537" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="Hhk-my-FK2" kind="show" id="4m3-ED-nP2"/>
                                 </connections>
@@ -345,7 +373,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xRc-UI-460">
                                 <rect key="frame" x="119" y="642" width="128" height="65"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Grey Lady"/>
+                                <state key="normal" title="Grey Lady">
+                                    <color key="titleColor" red="1" green="0.03014565537" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="Hhk-my-FK2" kind="show" id="JNV-Sg-rbZ"/>
                                 </connections>
@@ -358,7 +388,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YtV-iQ-ZcZ">
                                 <rect key="frame" x="106" y="826" width="166" height="65"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="The Bloody Baron"/>
+                                <state key="normal" title="The Bloody Baron">
+                                    <color key="titleColor" red="1" green="0.03014565537" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="92s-vA-n8I" kind="show" id="b2k-jP-ccy"/>
                                 </connections>
@@ -390,7 +422,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="COOL!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kqu-YD-NMD">
                                 <rect key="frame" x="205" y="175" width="358" height="284"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="117"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q5I-EY-ejN">
