@@ -82,6 +82,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ycl-TL-NdM">
                                 <rect key="frame" x="189" y="364" width="106" height="30"/>
                                 <state key="normal" title="About the Devs"/>
+                                <connections>
+                                    <segue destination="MLx-w5-ajy" kind="show" id="KtG-Fs-Krj"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -409,6 +412,33 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uNd-sY-R4e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1407" y="341"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="i6x-wg-1md">
+            <objects>
+                <viewController id="MLx-w5-ajy" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LAr-MV-4Xy"/>
+                        <viewControllerLayoutGuide type="bottom" id="xlP-lj-oF1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="scd-cc-iGu">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is a test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="35X-N8-uNn">
+                                <rect key="frame" x="154" y="219" width="97" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JLV-BX-Etu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1526" y="1309"/>
         </scene>
     </scenes>
     <resources>
