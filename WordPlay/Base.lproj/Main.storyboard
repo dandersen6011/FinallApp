@@ -42,6 +42,12 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOTE: You cannot go over 100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ss-Z4-bXK">
+                                <rect key="frame" x="267" y="137" width="234" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -710,12 +716,62 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is a test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="35X-N8-uNn">
-                                <rect key="frame" x="154" y="219" width="97" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="35X-N8-uNn">
+                                <rect key="frame" x="311" y="90" width="147" height="70"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nwn-wa-JUv">
+                                <rect key="frame" x="311" y="199" width="328" height="130"/>
+                                <string key="text">Kevin Callahan is a Hersey freshman. He is a Silver 3 in League of Legends and he was in charge of building the random password generator app within the App Suite.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="24K-s3-Hmq">
+                                <rect key="frame" x="311" y="330" width="328" height="137"/>
+                                <string key="text">Patrick Demspey is a Hersey freshman. He is unhealthily obsessed with Lord of the Rings and has a psuedo british accent. He was in charge of the trivia app within the App Suite .</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gvc-tF-udS">
+                                <rect key="frame" x="311" y="466" width="328" height="138"/>
+                                <string key="text">Patrick Asztabski is a Hersey freshman. He likes singing about guacamole and all his Google apps are in Polish. He was in charge of the extended wordplay app within the App Suite</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Obx-BL-O1X">
+                                <rect key="frame" x="311" y="612" width="328" height="179"/>
+                                <string key="text">Devin Andersen is a Hersey senior. He wears fancy clothes on certain days of the week and supplies his freshman teammates with assistance and humor. Devin was in charge of the About us app, three letter word, and graphics within the  App Suite.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m2D-Hs-pSq">
+                                <rect key="frame" x="311" y="812" width="328" height="134"/>
+                                <string key="text">Special thanks to Mr. Brown for assisting us through the app process. Special thanks to Mooch who immensly slowed down our progress and supplied us with endless idiocy.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_20160115_144340465" translatesAutoresizingMaskIntoConstraints="NO" id="cCU-tR-mmK">
+                                <rect key="frame" x="92" y="210" width="108" height="108"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_20160115_144344970_HDR" translatesAutoresizingMaskIntoConstraints="NO" id="WOs-Ny-6cI">
+                                <rect key="frame" x="92" y="345" width="108" height="108"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_20160115_144353763_HDR" translatesAutoresizingMaskIntoConstraints="NO" id="zAH-mM-6Yx">
+                                <rect key="frame" x="92" y="481" width="108" height="108"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_20160115_144407575" translatesAutoresizingMaskIntoConstraints="NO" id="W0B-68-NXM">
+                                <rect key="frame" x="92" y="648" width="108" height="108"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_20160115_144434253" translatesAutoresizingMaskIntoConstraints="NO" id="0L3-pw-hDy">
+                                <rect key="frame" x="92" y="825" width="108" height="108"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -728,6 +784,11 @@
     </scenes>
     <resources>
         <image name="Background" width="1536" height="2048"/>
+        <image name="IMG_20160115_144340465" width="2432" height="4320"/>
+        <image name="IMG_20160115_144344970_HDR" width="2432" height="4320"/>
+        <image name="IMG_20160115_144353763_HDR" width="2432" height="4320"/>
+        <image name="IMG_20160115_144407575" width="2432" height="4320"/>
+        <image name="IMG_20160115_144434253" width="2432" height="4320"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="xsl-Er-9Ki"/>
