@@ -535,10 +535,10 @@
             </objects>
             <point key="canvasLocation" x="-1407" y="341"/>
         </scene>
-        <!--View Controller-->
+        <!--Devs View Controller-->
         <scene sceneID="i6x-wg-1md">
             <objects>
-                <viewController id="MLx-w5-ajy" sceneMemberID="viewController">
+                <viewController id="MLx-w5-ajy" customClass="DevsViewController" customModule="WordPlay" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LAr-MV-4Xy"/>
                         <viewControllerLayoutGuide type="bottom" id="xlP-lj-oF1"/>
