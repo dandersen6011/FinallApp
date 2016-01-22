@@ -136,7 +136,7 @@
                         <viewControllerLayoutGuide type="bottom" id="DM2-Cx-Udn"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tt1-h5-Fct">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lineart" translatesAutoresizingMaskIntoConstraints="NO" id="awT-iS-F2b">
@@ -175,7 +175,7 @@
                         <viewControllerLayoutGuide type="bottom" id="IC7-Bn-P5B"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Cdf-ee-7PR">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lineart" translatesAutoresizingMaskIntoConstraints="NO" id="GgV-5W-UCL">
@@ -413,7 +413,7 @@
                         <viewControllerLayoutGuide type="bottom" id="f7J-cJ-FYZ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="lAm-FH-egz">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lineart" translatesAutoresizingMaskIntoConstraints="NO" id="9Fh-9v-8k9">
@@ -562,7 +562,7 @@
                         <viewControllerLayoutGuide type="bottom" id="yeJ-5K-QaU"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="6os-sU-qpd">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lineart" translatesAutoresizingMaskIntoConstraints="NO" id="ihd-8M-IVJ">
@@ -602,7 +602,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lineart" translatesAutoresizingMaskIntoConstraints="NO" id="c9K-ph-Yvj">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="lineart" translatesAutoresizingMaskIntoConstraints="NO" id="c9K-ph-Yvj">
                                 <rect key="frame" x="0.0" y="64" width="768" height="960"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h6l-4F-5M0">
@@ -667,7 +667,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lineart" translatesAutoresizingMaskIntoConstraints="NO" id="gM2-93-2SX">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="lineart" translatesAutoresizingMaskIntoConstraints="NO" id="gM2-93-2SX">
                                 <rect key="frame" x="0.0" y="64" width="768" height="960"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0IT-nH-gcw">
