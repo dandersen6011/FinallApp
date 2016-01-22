@@ -10,6 +10,9 @@
 import UIKit
 
 class ViewControllerPassword: UIViewController {
+    func clearLabel(action: UIAlertAction) {
+        passwordLabel.text = ""
+    }
     var numberOfLetters = 0
     var password = ""
 
@@ -31,9 +34,9 @@ class ViewControllerPassword: UIViewController {
         numberOfLetters = Int(textField.text!)!
         passwordLabel.text = randomStringWithLength(numberOfLetters) as String
         print(randomStringWithLength(numberOfLetters) as String)
-        if numberOfLetters >= 100000000 {
-            let alert = UIAlertController(title: "Reseting", message: "Press OK to reset", preferredStyle: UIAlertControllerStyle.Alert)
-            let OKAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil)
+        if numberOfLetters >= 100 {
+            let alert = UIAlertController(title: "ERROR", message: "You went over 100", preferredStyle: UIAlertControllerStyle.Alert)
+            let OKAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: clearLabel)
             presentViewController(alert, animated: true, completion: nil)
             alert.addAction(OKAction)
         }
